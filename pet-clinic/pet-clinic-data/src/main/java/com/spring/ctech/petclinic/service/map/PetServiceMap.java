@@ -22,7 +22,7 @@ public class PetServiceMap extends AbstractMapService<Owner, Long> implements Cr
 	
 	@Override
 	public Owner save(Owner object) {
-		return super.save(object.getId(), object);
+		return super.save(object);
 	}
 	
 	@Override
